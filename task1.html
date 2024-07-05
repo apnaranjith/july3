@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        .container{
+            height:100vh;
+            width:100vw;
+            
+             display:grid; 
+             grid-template-columns:300px repeat(1,1fr);
+            
+            
+        }
+        #child1{
+            background-color:rgb(186, 217, 228);
+        
+        }
+        #c1{
+          height:150px;
+          width:150px;
+          border:2px solid grey;
+          background-color:bisque;
+          background-image:url("./GettyImages-1169658632.webp");
+          background-size:cover;
+         background-attachment:scroll;
+         margin-left:50px;
+
+        }
+        h1{
+            font-family:'Times New Roman', Times, serif;
+            font-weight:lighter;
+            font-size:18px;
+            padding-top:10px;
+
+        }
+        #c2{
+            margin-left:50px;
+
+        }
+        p{
+            white-space:pre;
+            font-size:small;
+
+        }
+        #p1::after{
+        content:'';
+       height:0.3px;
+        width:250px;
+        border:1px solid grey;
+        background-color:rgb(186, 217, 228);
+        position:absolute;
+        left:50px;
+        top:335px;
+    }
+    #p2::after{
+        content:'';
+       height:0.3px;
+        width:250px;
+        border:1px solid grey;
+        background-color:rgb(186, 217, 228);
+        position:absolute;
+        left:50px;
+        top:485px;
+    }
+    /* #p3::after{ 
+        content:'';
+       height:0.3px;
+        width:250px;
+        border:1px solid grey;
+        background-color:rgb(186, 217, 228);
+        position:absolute;
+        left:50px;
+        top:620px;
+ } */
+    .head{
+        font-size:40px;
+        letter-spacing:2px;
+        font-weight:20;
+        line-height:15px;
+        padding-left:40px;
+        
+
+    }
+    .head2{
+        font-size:40px;
+        letter-spacing:2px;
+        font-weight:20;
+        color:grey;
+        padding-left:40px;
+    }
+    .head2::after{
+        content:'';
+        height:1px;
+        width:400px;
+        position:absolute;
+        top:200px;
+        background-color:grey;
+        left:350px;
+
+
+
+    }
+    #id8::after{
+        content:'';
+        height:1.5px;
+        width:400px;
+        position:absolute;
+        top:70px;
+        background-color:grey;
+        left:40px;
+
+     }
+
+    
+    </style>
+</head>
+<body>
+    <strong >TASK-1</strong>
+    <div class="container">
+        <div id="child1">
+            <div id="c1"></div>
+            <div id="c2">
+                <h1>CONTACT</h1>
+     <p id="p1">6514,vidyanagar,
+siricilla
+9381231117
+maderaboinaranjith463@gmail.com
+www.ranjithschools.com
+               </p>
+               <h1>COMMUNICATION</h1>
+               <P id="p2">I have received many 
+awards for outstanding
+communication skills including
+recognition for providing
+ecxeptional education.
+               </P>
+               <h1>LEADERSHIP</h1>
+               <P ID="p3">I received outstanding
+ovation in the auditorium for 
+my leadership skills,I have 
+executed in the Abu Dhabi.
+               </P>
+
+            </div>
+            
+        </div>
+        <div id="child2">
+            <H2 class="head">MIKE<BR>
+            </H2>
+            <h2 class="head2">TYSON</h2>
+            <h3 style="margin-left:40px;font-family:'Arial', Helvetica, sans-serif;font-weight:500;line-height:60px;">REGISTERED NURSE</h3>
+            <h3 style="margin-left:40px;font-family:'Times new roman', Helvetica, sans-serif;font-weight:500;line-height:30px;">EDUCATION</h3>
+            <pre style="font-size:13px;font-weight:500;padding-left:40px;">Bellows College|Madison,WI
+    
+            </pre>
+            <p id="id8" style="position:relative; bottom:30px;padding-left:40px;font-weight:bold;font-size:small;white-space:pre;">Bachelors of Science in Nursing
+Relevant coursework Anatomy and Physiology,Pharmacology,nursing ethics,and patient care management
+            </p>
+            <div id="final">
+                <h3 style="margin-left:40px;font-family:'Times new roman', Helvetica, sans-serif;font-weight:500;line-height:30px;">EXPERIENCE</h3>
+                <pre style="font-size:13px;font-weight:500;padding-left:40px;">NOVEMBER xx-12-2024
+shubhodaya group of Schools        </pre>   
+<div id="id9" style=" padding-left:40px;font-weight:normal;font-size:medium;">Worked as administartor in various <br>
+    institutions like oxford schools of Business.
+    from xx-11-2023 to xx-11-2024
+</div> </div>
+        </div>
+      
+    </div>
+
+</body>
+</html>
